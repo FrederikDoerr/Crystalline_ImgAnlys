@@ -24,8 +24,6 @@ This repository combines methods for object detection and direct image feature e
 
 <!-- Getting Started-->
 ## Getting Started
-There are selected demo examples defined in file '.\_ImgPrc_ParameterFiles\XRT_ParameterImport.xlsx'. Please unpack '.\_Demo\XRT_Capsule.zip' with image data. Run XRT_3DAnlys_MAIN.m
-
 To add your own datasets to the image analysis:
 - Open parameter file 'CryExp_Masterfile.xlsx' and amend/add row with details on your image dataset: see sheet 'Crystalline' for details on image dataset, see 'Prc_ImgAnlys' for image processing parameters
 - Open the main file (XRT_3DAnlys_MAIN.m) and run script. The datasets will be analysed according to their order in 'CryExp_Masterfile.xlsx\Crystalline'. The MATLAB analysis will run through the datasets until it encounters an empty row.
