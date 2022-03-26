@@ -26,7 +26,7 @@ This repository combines methods for object detection and direct image feature e
 ## Getting Started
 To add your own datasets to the image analysis:
 - Open parameter file 'CryExp_Masterfile.xlsx' and amend/add row with details on your image dataset: see sheet 'Crystalline' for details on image dataset, see 'Prc_ImgAnlys' for image processing parameters
-- Open the main file (XRT_3DAnlys_MAIN.m) and run script. The datasets will be analysed according to their order in 'CryExp_Masterfile.xlsx\Crystalline'. The MATLAB analysis will run through the datasets until it encounters an empty row.
+- Open the main file (Crystalline_Main.m) and run the script. The datasets will be analysed according to their order in 'CryExp_Masterfile.xlsx\Crystalline'. The MATLAB analysis will run through the datasets top to bottom until it encounters an empty row.
 
 <!-- References-->
 ## References (open access):
