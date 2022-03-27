@@ -17,7 +17,7 @@ This repository combines methods for object detection and direct image feature e
 ## Structure
 * _Demo: contains specific demo files and demo image data (.zip). 
 * _FileExchange: dependencies, please review individual file packages (Readme). Some files were modified to improve integration.
-* CryExp_Masterfile.xlsx: contains parameter information with data paths and image processing parameters. Please amend to add your own image datasets. Sheet '3DAnlys': general settings and filepaths, Sheet 'ImgPrc_Param': image processing parameter.
+* CryExp_Masterfile.xlsx: contains information with metadata, data paths and image processing parameters.
 * Crystalline_Main.m: main MATLAB file to run Crystalline image analysis routine.
 * Crystalline_ImgAnlys.m: image analysis routine which includes Object Detection (Crystalline_ImgPrc), Direct Image Feature Extraction (Crystalline_ImgAnlys_Feat) and Object Parameterisation (Crystalline_ImgAnlys_ObjPara).
 * Crystalline_DataAnlys.m: data analysis for post-processing of extracted direct image features for clear/cloud point detection and plotting.
